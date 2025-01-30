@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>About page</title>
+    </head>
+    <body>
+        <!-- <style>
+            li::marker{
+                content: "💁👌";
+            }
+        </style> -->
+
+        <div class="elfsight-app-22bc8352-4e4b-4f95-9544-ea83bd7f4200" data-elfsight-app-lazy></div>
+
+        <h1 id="head">Please select any cource</h1>
+
+
+
+        <select onchange="Cource()" id="cource">
+            <option disabled selected>Choose your cource...</option>
+            <option>Web Design</option>
+            <option>Web Development</option>
+            <option>Css</option>
+        </select>
+
+
+        <select>
+            <option disabled selected>Choose your cource</option>
+            <optgroup label="Frontend">
+                <option>Html</option>
+                <option>css</option>
+                <option>javascript</option>
+                <option>bootstrap</option>
+            </optgroup>
+            <optgroup label="Backend">
+                <option>Reactjs</option>
+                <option>Nodejs</option>
+                <option>Express</option>
+                <option>Mongodb</option>
+            </optgroup>
+        </select>
+
+        <details>
+            <summary>Open</summary>
+            <h1>Helloo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae praesentium commodi voluptatum repellendus rerum voluptate laudantium at sapiente provident placeat magni, ipsum omnis quis nobis optio voluptates officia, mollitia sed.</p>
+        </details>
+        <iframe src="./contact.html" height="600px" width="800px">
+
+        </iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3218.6094428588644!2d75.73371457489615!3d26.945382358686892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3e798598ac1%3A0x3ec1c463addf81c6!2sDGR%20Academy%20-Best%20Institute%20for%20Advanced%20Digital%20Marketing%20Course%20In%20Jhotwara%20Jaipur!5e1!3m2!1sen!2sin!4v1737717342756!5m2!1sen!2sin" width="600" height="450" style="border:0;"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/T17Mr7U-JIU?si=mfQLrpGpnT0CuvWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <ul>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+            <li>Home</li>
+        </ul>
+
+        <ol type="1">
+            <li>jhjgjhhj</li>
+            <li>jhjgjhhj</li>
+            <li>jhjgjhhj</li>
+            <li>jhjgjhhj</li>
+        </ol>
+      
+        <script>
+
+            function Cource(){
+                courcedata = document.getElementById("cource").value;
+                heading = document.getElementById("head")
+                if(courcedata==="Web Design"){
+heading.innerHTML = "Web design cource"
+                }else 
+                if(courcedata==="Web Development"){
+                    heading.innerHTML = "Web Development cource"
+                }else
+                if(courcedata === "Css"){
+                    heading.innerHTML = "Css cource"
+                }
+            }
+
+
+        </script>
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+
+    </body>
+</html>

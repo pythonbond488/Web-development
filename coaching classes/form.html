@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+
+        <style>
+            textarea{
+                height: 200px;
+                width: 400px;
+                resize: none;
+            }
+        </style>
+
+
+        <form action="./about.html">
+            <label for="name">Username:</label>
+            <input type="text" placeholder="enter your username..." required />
+            <br/>
+            <br/>
+            <label for="email">User Email:</label>
+            <input type="email" placeholder="enter your email..." required/>
+            <br/>
+            <br/>
+            <label for="password">Password:</label>
+            <input type="password" placeholder="enter your password..." required maxlength="8" minlength="6"/>
+            <br/>
+            <br/>
+           <input type="file"/>
+           <br/>
+           <input type="date"/>
+           <br/>
+           <input type="month"/>
+           <br/>
+           <input type="color"/>
+           <br/>
+           <input type="time"/>
+           <br/>
+           <input type="checkbox"/>term and conditions are applied
+           <br/>
+           <input type="radio" name="gender" value="male"/>male 
+           <input type="radio" name="gender" value="female"/>female
+           <br/>
+           <input type="range"/>
+           <br/>
+           <textarea placeholder="enter your message"></textarea>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+
+       
+
+    </body>
+</html>
